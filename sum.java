@@ -1,0 +1,38 @@
+/* import java.util.Scanner;
+
+public class sum {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter a:");
+        int a = s.nextInt();
+        System.out.println("Enter b:");
+        int b= s.nextInt();
+        int add=a+b;
+        System.out.println(a+"+"+b+"="+add);
+
+    }
+}
+ */
+
+
+ import java.util.Scanner;
+
+
+ class Addition{
+    void aDD(){
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter a:");
+        int a = s.nextInt();
+        System.out.println("Enter b:");
+        int b= s.nextInt(); 
+        int add=a+b;
+        System.out.println(a+"+"+b+"="+add);
+    }
+ }
+public class sum {
+    public static void main(String[] args) {
+
+        Addition A =new Addition();
+        A.aDD();
+    }
+}
